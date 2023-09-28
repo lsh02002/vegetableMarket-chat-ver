@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head-box">
+        <div class="head-box-arrow">
+          <img src="assets/arrow.svg" alt="" />
+        </div>
+        <div class="head-box-title">
+          <div class="head-box-user">
+            <div class="head-box-user-name"><h3>슬기맘</h3></div>
+            <div class="head-box-temperature">36.5°C</div>
+          </div>
+          <div class="head-box-user-message">보통 1시간 이내 응답</div>
+        </div>
+        <div class="head-box-icons">
+          <div class="head-box-phone-icon">
+            <img src="assets/phone.svg" alt="" />
+          </div>
+          <div class="head-box-vertical-icon">
+            <img src="assets/vertical.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>      
+<!--      <div class="main-box-second">
+        <div class="main-second-ask">
+          <div class="main-second-ask-dcontent">
+            <div class="main-second-ask-date">오후 3:45</div>
+          </div>
+          <div class="main-second-ask-message">
+            오늘 시민공원 근처에서 7시에 가능하신가요?
+          </div>
+        </div>
+        <div class="main-second-respond"></div>
+      </div>
+      <div class="main-box-third">
+        <div class="main-third-picon">
+          <img src="assets/person.svg" alt="" />
+        </div>
+        <div class="main-third-respond-message">네 가능해요 그때 봐요!</div>
+        <div class="main-third-ask-dcontent">
+          <div class="main-third-respond-date">오후 3:45</div>
+        </div>
+      </div>
+      <div class="main-box-fourth">
+      -->        
+        <div class="main-box-fourth-message-box">
+          <div class="main-box-fourth-full-date">
+            <div class="main-box-fourth-icon1">
+              <img src="assets/message.svg" alt="" />
+            </div>
+            <div class="main-box-fourth-icon1-message">
+              4월 28일(수) 오후 7:00
+            </div>
+          </div>
+          <div class="main-box-fourth-setting">
+            슬기맘님이 거래 약속을 설정했어요.
+          </div>
+        </div>
+      </div>
+      <div class="main-box-fifth">
+        <div class="main-box-fifth-message">
+          약속 시간 30분 전에 슬기맘님에게 알림이 울릴 거에요.
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-chat-box0">
+        <form id="footer-chat-sender">
+          <label for="chat-input">팔 아이템 메시지</label>          
+          <input type="text" id="chat-input" required /><br>
+          <label for="chat-price-input">아이템 가격</label>
+          <input type="text" id="chat-price-input" required/><br>
+          <label for="chat-message-input">약속 메시지</label>
+          <input type="text" id="chat-message-input" required/>
+          <button id="chat-submit" type="submit">보내기</button>
+        </form>
+        <div class="footer-chat-ul">
+          <ui id="chat-ul"></ui>
+        </div>
+      </div>
+      <div>
+        <div class="footer-chat-box1">
+          <form id="footer-respond-chat">
+            <label for="chat-respond-input">응답 메시지</label>
+            <input type="text" id="chat-respond-input" required />            
+            <button id="chat-respond-submit" type="submit">보내기</button>
+          </form>
+          <div class="footer-chat-ul">
+            <ui id="chat-ul"></ui>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
